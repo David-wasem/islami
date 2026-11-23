@@ -57,9 +57,4 @@ List<PageViewModel> pageViewModelList = [
     body: "We Are Very Excited To Have You In Our Community",
     image: "assets/Intro_2.png",
   ),
-  CustomPageView(
-    title: "Reading the Quran",
-    body: "Read, and your Lord is the Most Generous",
-    image: "assets/Intro_3.png",
-  ),
 ];
