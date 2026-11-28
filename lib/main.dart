@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:islami/home_screen.dart';
-import 'package:islami/intro_screen.dart';
+import 'package:islami/screens/home_screen.dart';
+import 'package:islami/screens/intro_screen.dart';
 
 void main() {
   runApp(const MainApp());
@@ -12,8 +12,9 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       routes: {
-        IntroScreen.routeName: (context) => const IntroScreen(),
+        IntroScreen.routeName: (context) => IntroScreen(),
         HomeScreen.routeName: (context) => HomeScreen(),
       },
       initialRoute: IntroScreen.routeName,
